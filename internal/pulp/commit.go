@@ -41,6 +41,8 @@ func (BodyValidator) Validate(it Item) error {
 }
 
 func ApplyValidated(v Validator, s Store, it Item) error {
-	_ = v.Validate(it)
+	if err := v.Validate(it); err != nil {
+		return err
+	}
 	return s.Commit(it)
 }

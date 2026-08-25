@@ -1,0 +1,12 @@
+﻿{
+    "tag":  "main",
+    "session_id":  "bdb33deb-7baf-4515-b3d3-c46a5d67e6b5",
+    "jsonl":  "C:\\Users\\lacsa\\.claude\\projects\\D--go-data-claude-run-bug731-pulppress06-main\\bdb33deb-7baf-4515-b3d3-c46a5d67e6b5.jsonl",
+    "exit_code":  {
+                      "value":  0,
+                      "PSComputerName":  "localhost",
+                      "RunspaceId":  "cef450e6-f3e9-4317-aff8-c5ac486719c3",
+                      "PSShowComputerName":  false
+                  },
+    "out":  "D:\\go-data-claude-run\\bug731-pulppress06-main\\_claude_main.out.txt"
+}
